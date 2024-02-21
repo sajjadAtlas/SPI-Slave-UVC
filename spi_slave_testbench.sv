@@ -1,6 +1,6 @@
 
 import uvm_pkg::*;
-interface spi_interface(input logic clk, input logic reset);
+interface spi_interface(input logic clk);
   
   
   bit MOSI;
